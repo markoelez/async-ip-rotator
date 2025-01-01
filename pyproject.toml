@@ -1,13 +1,11 @@
 [project]
 name = "async-ip-rotator"
 version = "0.1.0"
-description = "Add your description here"
+description = "Minimal asynchronous IP rotator"
 readme = "README.md"
-authors = [
-    { name = "Marko Elez", email = "markoelez7@gmail.com" }
-]
+authors = [{ name = "Marko Elez", email = "markoelez7@gmail.com" }]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["boto3>=1.35.90", "botocore>=1.35.90", "httpx>=0.28.1"]
 
 [project.scripts]
 async-ip-rotator = "async_ip_rotator:main"
