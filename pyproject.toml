@@ -1,0 +1,17 @@
+[project]
+name = "async-ip-rotator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Marko Elez", email = "markoelez7@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+async-ip-rotator = "async_ip_rotator:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
